@@ -198,7 +198,7 @@ h2 {
 .scroll {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
-    /*position: absolute;*/
+    position: absolute;
     top: 84px;
     bottom: 0px;
     left: 0px;
