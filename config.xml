@@ -15,11 +15,10 @@
         Christophe Coenraets
     </author>
 
-    <gap:plugin name="org.apache.cordova.contacts" />
-    <gap:plugin name="org.apache.cordova.camera" />
+
 
     <feature name="http://api.phonegap.com/1.0/camera"/>
-    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="https://github.com/apache/cordova-plugin-contacts.git"/>
     <feature name="http://api.phonegap.com/1.0/file"/>
     <feature name="http://api.phonegap.com/1.0/geolocation"/>
     <feature name="http://api.phonegap.com/1.0/media"/>
