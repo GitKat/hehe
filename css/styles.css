@@ -62,10 +62,13 @@ body {
     padding-top: 6px;
     margin-bottom: 6px;
     border-bottom: solid 1px #666;*/
+    margin: 10px;
 }
 .search-key {
-    width: 100%;
-    padding: 5px;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0px 2px 5px #666666;
+  border: none;
 }
 
 input[type="search"] {
@@ -195,7 +198,7 @@ h2 {
 .scroll {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
-    position: absolute;
+    /*position: absolute;*/
     top: 84px;
     bottom: 0px;
     left: 0px;
