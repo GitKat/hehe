@@ -55,13 +55,17 @@ body {
 }
 
 .search-bar {
-    background: #ccc;
+    /*background: #ccc;
     height: 32px;
     padding-left:6px;
     padding-right: 6px;
     padding-top: 6px;
     margin-bottom: 6px;
-    border-bottom: solid 1px #666;
+    border-bottom: solid 1px #666;*/
+}
+.search-key {
+    width: 100%;
+    padding: 5px;
 }
 
 input[type="search"] {
@@ -187,4 +191,13 @@ h2 {
     margin:10px;
     width:100px;
     height:100px;
+}
+.scroll {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: absolute;
+    top: 84px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 }
